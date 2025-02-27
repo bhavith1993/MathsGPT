@@ -31,13 +31,13 @@ Streamlit App Setup:
 Configures the page title, icon, and layout using Streamlit.
 
 ## API and Tool Initialization:
-Sets up the Groq API key and initializes various LangChain tools including:
+- Sets up the Groq API key and initializes various LangChain tools including:
 
-Wikipedia Tool (for web searches)
-Calculator Tool (using LLMMathChain)
-Reasoning Tool (using LLMChain with a custom prompt)
-Agent Initialization:
-Combines the tools using the ZERO_SHOT_REACT_DESCRIPTION agent from LangChain to intelligently select the right tool based on the query.
+- Wikipedia Tool (for web searches)
+- Calculator Tool (using LLMMathChain)
+- Reasoning Tool (using LLMChain with a custom prompt)
+- Agent Initialization:
+- Combines the tools using the ZERO_SHOT_REACT_DESCRIPTION agent from LangChain to intelligently select the right tool based on the query.
 
 ## User Interaction:
 The app captures user input, processes it with the agent, and displays both the conversation history and the detailed response.
